@@ -25,6 +25,7 @@ O *GitHub* é uma plataforma de hospedagem de repositórios Git na nuvem. Ele fa
 
 - Git status (verifica se o arquivo ja foi rastreado pelo git)
 - Git add (finalizar e salvar no git) 
+- Git log (traz o histórico dos commits)
 
 - Ctrl L - limpar terminal
 - ctrl j - abrir terminal
@@ -54,3 +55,16 @@ O *GitHub* é uma plataforma de hospedagem de repositórios Git na nuvem. Ele fa
 5. *Suba suas alterações para o GitHub*
    - Digite git push origin main para enviar suas alterações para o repositório remoto no GitHub. 
    .
+
+# Git Restore
+O comando git restore é usado para restaurar arquivos no diretório de trabalho ou na área de preparação (índice) para o estado em que estavam no último commit. Aqui estão os detalhes:
+
+Restauração do diretório de trabalho (working tree):
+Quando você executa git restore <caminho>, o Git restaura o arquivo especificado no diretório de trabalho para o estado do último commit.
+Por exemplo, se você fez alterações em um arquivo e deseja desfazê-las, use git restore <caminho>.
+Restauração da área de preparação (index):
+Para restaurar arquivos apenas na área de preparação (index), use git restore --staged <caminho>.
+Isso remove as alterações do índice, mas mantém as alterações no diretório de trabalho.
+Restauração de um commit específico:
+Você pode usar git restore --source=<commit> <caminho> para restaurar arquivos do commit especificado.
+Substitua <commit> pelo hash do commit desejado.
