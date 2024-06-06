@@ -26,7 +26,8 @@ O *GitHub* é uma plataforma de hospedagem de repositórios Git na nuvem. Ele fa
 - Git status (verifica se o arquivo ja foi rastreado pelo git)
 - Git add (finalizar e salvar no git) 
 - Git log (traz o histórico dos commits)
-
+- Git fetch (busca as alterações)
+- Git pull busca e mescla as alterações
 - Ctrl L - limpar terminal
 - ctrl j - abrir terminal
 
