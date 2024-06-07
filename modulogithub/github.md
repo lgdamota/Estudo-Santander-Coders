@@ -69,3 +69,27 @@ Isso remove as alterações do índice, mas mantém as alterações no diretóri
 Restauração de um commit específico:
 Você pode usar git restore --source=<commit> <caminho> para restaurar arquivos do commit especificado.
 Substitua <commit> pelo hash do commit desejado.
+
+# Git Branch
+
+## O que é um Branch no Git?
+Um branch no Git é como um ramo de uma árvore. Ele é um ponteiro móvel para um commit específico no histórico do seu projeto. Aqui estão os pontos principais:
+
+Utilidade do Branch:
+Permite que você trabalhe em diferentes partes do projeto sem afetar o branch principal (geralmente chamado de “master” ou “main”).
+Útil para adicionar novos recursos, corrigir erros ou experimentar sem comprometer o código estável.
+Criando um Branch Local:
+Para criar um novo branch local, use o comando:
+git branch nome-do-branch
+
+Isso cria um novo branch chamado nome-do-branch apontando para o mesmo commit atual.
+Acessando um Branch Criado:
+Para alternar para o novo branch, use:
+git checkout nome-do-branch
+
+Agora você está trabalhando no novo branch.
+Mesclando Branches:
+Quando terminar de trabalhar no branch, você pode mesclá-lo de volta ao branch principal (master ou main) usando:
+git merge nome-do-branch
+
+Isso incorpora as alterações do branch no principal.
