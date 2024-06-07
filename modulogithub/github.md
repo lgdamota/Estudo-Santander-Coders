@@ -93,3 +93,5 @@ Quando terminar de trabalhar no branch, você pode mesclá-lo de volta ao branch
 git merge nome-do-branch
 
 Isso incorpora as alterações do branch no principal.
+
+<img src="https://media.discordapp.net/attachments/1087815765010415748/1248436193054429329/a469b294-42e1-45c6-a020-7523b4dbc041.png?ex=6663a84f&is=666256cf&hm=55aad6341ec1f1c9ccf1d8b9430ed936ede813919c2ef4825b47137a507a7c00&=&format=webp&quality=lossless" alt="Árvore Branch">
