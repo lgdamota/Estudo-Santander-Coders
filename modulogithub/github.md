@@ -1,12 +1,12 @@
-
 # Santander Coders
+
 # Versionamento com Git
 
-O *Git* é um sistema de controle de versão distribuído. Ele permite que você registre alterações em seus arquivos ao longo do tempo. Cada alteração é registrada como um “snapshot” (ou “foto”) do estado do projeto naquele momento. Esses snapshots são armazenados em um histórico, permitindo que você recupere versões anteriores do código.
+O _Git_ é um sistema de controle de versão distribuído. Ele permite que você registre alterações em seus arquivos ao longo do tempo. Cada alteração é registrada como um “snapshot” (ou “foto”) do estado do projeto naquele momento. Esses snapshots são armazenados em um histórico, permitindo que você recupere versões anteriores do código.
 
 # GitHub
 
-O *GitHub* é uma plataforma de hospedagem de repositórios Git na nuvem. Ele facilita a colaboração entre desenvolvedores, permitindo que várias pessoas trabalhem no mesmo projeto. Além disso, o GitHub oferece recursos como controle de acesso, gerenciamento de problemas e integração contínua.
+O _GitHub_ é uma plataforma de hospedagem de repositórios Git na nuvem. Ele facilita a colaboração entre desenvolvedores, permitindo que várias pessoas trabalhem no mesmo projeto. Além disso, o GitHub oferece recursos como controle de acesso, gerenciamento de problemas e integração contínua.
 
 # Comandos Básicos do Git
 
@@ -24,7 +24,7 @@ O *GitHub* é uma plataforma de hospedagem de repositórios Git na nuvem. Ele fa
 - CD - entrar
 
 - Git status (verifica se o arquivo ja foi rastreado pelo git)
-- Git add (finalizar e salvar no git) 
+- Git add (finalizar e salvar no git)
 - Git log (traz o histórico dos commits)
 - Git fetch (busca as alterações)
 - Git pull busca e mescla as alterações
@@ -33,31 +33,36 @@ O *GitHub* é uma plataforma de hospedagem de repositórios Git na nuvem. Ele fa
 
 # Criando e Subindo um Novo Repositório no GitHub
 
-1. *Crie um novo repositório no GitHub*
+1. _Crie um novo repositório no GitHub_
+
    - Vá para GitHub e faça login na sua conta.
    - Clique em New repository no menu à esquerda.
    - Dê um nome ao seu repositório, adicione uma descrição (opcional), escolha se deseja torná-lo público ou privado e clique em Create repository.
 
-2. *Clone o repositório para sua máquina local*
+2. _Clone o repositório para sua máquina local_
+
    - Copie a URL do repositório que você acabou de criar.
    - Abra o terminal no seu computador.
    - Navegue até o diretório onde deseja clonar o repositório.
    - Digite git clone [URL do repositório] e pressione Enter.
 
-3. *Adicione arquivos ao repositório*
+3. _Adicione arquivos ao repositório_
+
    - Navegue até o diretório do repositório clonado.
    - Adicione arquivos ou faça alterações nos arquivos existentes.
    - Quando terminar, digite git status para ver quais alterações foram feitas.
 
-4. *Faça commit das suas alterações*
+4. _Faça commit das suas alterações_
+
    - Digite git add . para adicionar todas as alterações feitas.
    - Em seguida, digite git commit -m "Sua mensagem de commit" para criar um novo commit com suas alterações.
 
-5. *Suba suas alterações para o GitHub*
-   - Digite git push origin main para enviar suas alterações para o repositório remoto no GitHub. 
-   .
+5. _Suba suas alterações para o GitHub_
+   - Digite git push origin main para enviar suas alterações para o repositório remoto no GitHub.
+     .
 
 # Git Restore
+
 O comando git restore é usado para restaurar arquivos no diretório de trabalho ou na área de preparação (índice) para o estado em que estavam no último commit. Aqui estão os detalhes:
 
 Restauração do diretório de trabalho (working tree):
@@ -73,6 +78,7 @@ Substitua <commit> pelo hash do commit desejado.
 # Git Branch
 
 ## O que é um Branch no Git?
+
 Um branch no Git é como um ramo de uma árvore. Ele é um ponteiro móvel para um commit específico no histórico do seu projeto. Aqui estão os pontos principais:
 
 Utilidade do Branch:
